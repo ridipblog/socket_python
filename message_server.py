@@ -19,6 +19,7 @@ class receive(Thread):
 		while True:
 			get_m=conn.recv(1024)
 			print("\nRececie : "+get_m.decode())
+			
 t1=send()
 t2=receive()
 t1.start()

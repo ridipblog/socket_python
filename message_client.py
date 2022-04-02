@@ -1,7 +1,7 @@
 import socket
 from threading import Thread
 conn=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host='ngrok_ip'
+host='3.142.129.56'
 port=12500
 conn.connect((host,port))
 print("Connected...")
