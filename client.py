@@ -1,6 +1,6 @@
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host='3.142.167.54'
+host='ngrok_ip'
 port=12500
 s.connect((host,port))
 con=True
