@@ -1,7 +1,7 @@
 import socket
 import os
 conn=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host='ngrok_ip'
+host='3.17.7.232'
 port=12476
 conn.connect((host,port))
 print("Connected...")
