@@ -1,6 +1,8 @@
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host='ngrok_ip'
+# command for cmd -> tcp http 4045
+# command for cmd -> ping tcp generate link
 port=12500
 s.connect((host,port))
 con=True
